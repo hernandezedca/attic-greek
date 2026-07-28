@@ -1493,6 +1493,13 @@ function triggerHero() {
 document.addEventListener('DOMContentLoaded', () => {
   triggerHero();
   initObserver();
+
+  // Deep-link support so URLs like atticgreek.com/#page-support open that
+  // page directly instead of always landing on the homepage.
+  const hash = window.location.hash.replace('#page-', '').replace('#', '');
+  if (hash && document.getElementById('page-' + hash)) {
+    showPage(hash);
+  }
 });
 
 // Re-run when navigating back to home
