@@ -1,0 +1,6 @@
+# Attic Greek — atticgreek.com
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.atticgreek.com/sitemap.xml

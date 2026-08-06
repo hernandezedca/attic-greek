@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Attic Greek — sitemap
+  Add one <url> block per new blog post and update <lastmod>.
+  Only real, indexable URLs belong here. The privacy/terms/support
+  views live inside index.html as hash routes (#page-privacy etc.),
+  so they are not separate URLs and are deliberately omitted.
+-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://www.atticgreek.com/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://www.atticgreek.com/blog/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.atticgreek.com/blog/why-learn-ancient-greek-odyssey/</loc>
+    <lastmod>2026-08-01</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
