@@ -3,4 +3,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.atticgreek.com/sitemap.xml
+Sitemap: https://atticgreek.com/sitemap.xml
