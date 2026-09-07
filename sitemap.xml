@@ -17,7 +17,7 @@
 
   <url>
     <loc>https://atticgreek.com/blog/</loc>
-    <lastmod>2026-08-26</lastmod>
+    <lastmod>2026-09-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -39,6 +39,13 @@
   <url>
     <loc>https://atticgreek.com/blog/why-lemnos-belongs-to-hephaestus/</loc>
     <lastmod>2026-08-26</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://atticgreek.com/blog/ancient-greek-words-in-german/</loc>
+    <lastmod>2026-09-02</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
