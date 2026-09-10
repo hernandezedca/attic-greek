@@ -288,6 +288,28 @@ article .gk {
   letter-spacing: 0.08em; text-transform: uppercase; font-weight: 600;
 }
 
+/* ── Conjugation / grammar table ── */
+.conj-table-wrap {
+  margin: 32px 0;
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--r-card);
+  background: rgba(255,255,255,0.015);
+}
+.conj-table { width: 100%; border-collapse: collapse; font-size: 0.95rem; }
+.conj-table th, .conj-table td {
+  padding: 13px 18px; text-align: left; white-space: nowrap;
+  border-bottom: 1px solid var(--border);
+}
+.conj-table tr:last-child td { border-bottom: none; }
+.conj-table th {
+  background: rgba(255,255,255,0.03); color: var(--dim);
+  font-size: 0.68rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+}
+.conj-table td { color: var(--text); }
+.conj-table td.gk-cell { font-family: var(--greek); color: var(--gold); font-size: 1.12em; }
+.conj-table td.translit-cell { color: var(--dim); font-style: italic; }
+
 /* ── End-of-article CTA ── */
 .article-cta {
   margin: 60px 0 20px;
@@ -357,6 +379,8 @@ footer {
   .article-wrap { padding: 0 20px 30px; }
   article p { font-size: 1rem; }
   article p.lead { font-size: 1.1rem; }
+  .conj-table { font-size: 0.85rem; }
+  .conj-table th, .conj-table td { padding: 10px 14px; }
   .greek-quote { padding: 26px 20px; }
   .article-cta { padding: 34px 22px; }
 }
