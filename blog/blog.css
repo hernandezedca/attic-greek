@@ -253,6 +253,12 @@ article h2 {
 article h2 .qmark { color: var(--accent); }
 article strong { color: #fff; font-weight: 700; }
 article em { font-style: italic; }
+article p a {
+  color: var(--accent);
+  border-bottom: 1px solid rgba(92,160,222,0.4);
+  transition: border-color 0.2s;
+}
+article p a:hover { border-bottom-color: var(--accent); }
 /* Inline Greek inside a paragraph */
 article .gk {
   font-family: var(--greek);
