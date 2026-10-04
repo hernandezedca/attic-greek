@@ -284,6 +284,10 @@ article .gk {
   letter-spacing: 0.01em;
   margin-bottom: 18px;
 }
+.greek-quote .gk-translit {
+  font-size: 0.88rem; color: var(--dim); line-height: 1.7;
+  letter-spacing: 0.01em; margin-bottom: 14px;
+}
 .greek-quote .gk-trans {
   font-size: 1rem; color: var(--text); font-style: italic;
   line-height: 1.7; margin-bottom: 12px;
