@@ -17,7 +17,7 @@
 
   <url>
     <loc>https://atticgreek.com/blog/</loc>
-    <lastmod>2026-10-13</lastmod>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -74,6 +74,13 @@
   <url>
     <loc>https://atticgreek.com/blog/boustrophedon-ancient-greek-written-backwards/</loc>
     <lastmod>2026-10-13</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://atticgreek.com/blog/alpha-ox-origin-of-the-greek-alphabet/</loc>
+    <lastmod>2026-10-23</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
